@@ -1,0 +1,1845 @@
+
+
+ Request #1 : GET  /person Accept: application/xml ContentType: application/xml 
+ => Result: ok 
+ => HTTP Status: 200
+ <people>
+  <person>
+    <preferences>
+      <activity>
+        <description>bike race</description>
+        <idActivityPreference>25</idActivityPreference>
+        <name>sport</name>
+        <place>trento</place>
+        <startdate>1-11-1978</startdate>
+      </activity>
+      <activity>
+        <description>bike race</description>
+        <idActivityPreference>30</idActivityPreference>
+        <name>sport</name>
+        <place>trento</place>
+        <startdate>1-11-1978</startdate>
+      </activity>
+      <activity>
+        <description>bike race</description>
+        <idActivityPreference>35</idActivityPreference>
+        <name>sport</name>
+        <place>trento</place>
+        <startdate>1-11-1978</startdate>
+      </activity>
+      <activity>
+        <description>bike race</description>
+        <idActivityPreference>56</idActivityPreference>
+        <name>sport</name>
+        <place>trento</place>
+        <startdate>1-11-1978</startdate>
+      </activity>
+      <activity>
+        <description>bike race</description>
+        <idActivityPreference>57</idActivityPreference>
+        <name>sport</name>
+        <place>trento</place>
+        <startdate>1-11-1978</startdate>
+      </activity>
+      <activity>
+        <description>bike race</description>
+        <idActivityPreference>62</idActivityPreference>
+        <name>sport</name>
+        <place>trento</place>
+        <startdate>1-11-1978</startdate>
+      </activity>
+      <activity>
+        <description>bike race</description>
+        <idActivityPreference>63</idActivityPreference>
+        <name>sport</name>
+        <place>trento</place>
+        <startdate>1-11-1978</startdate>
+      </activity>
+      <activity>
+        <description>bike race</description>
+        <idActivityPreference>68</idActivityPreference>
+        <name>sport</name>
+        <place>trento</place>
+        <startdate>1-11-1978</startdate>
+      </activity>
+      <activity>
+        <description>bike race</description>
+        <idActivityPreference>69</idActivityPreference>
+        <name>sport</name>
+        <place>trento</place>
+        <startdate>1-11-1978</startdate>
+      </activity>
+      <activity>
+        <description>bike race</description>
+        <idActivityPreference>74</idActivityPreference>
+        <name>sport</name>
+        <place>trento</place>
+        <startdate>1-11-1978</startdate>
+      </activity>
+      <activity>
+        <description>bike race</description>
+        <idActivityPreference>75</idActivityPreference>
+        <name>sport</name>
+        <place>trento</place>
+        <startdate>1-11-1978</startdate>
+      </activity>
+    </preferences>
+    <birthdate>17-02-1978</birthdate>
+    <firstname>Jonas JSON</firstname>
+    <idPerson>1</idPerson>
+    <lastname>marco</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activity>
+        <description>swimming</description>
+        <idActivityPreference>1</idActivityPreference>
+        <name>sport</name>
+        <place>Trento city</place>
+        <startdate>2017-09-13T12:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>swimming</description>
+        <idActivityPreference>5</idActivityPreference>
+        <name>sport</name>
+        <place>Trento city</place>
+        <startdate>2017-09-13T12:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>swimming</description>
+        <idActivityPreference>9</idActivityPreference>
+        <name>sport</name>
+        <place>Trento city</place>
+        <startdate>2017-09-13T12:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>swimming</description>
+        <idActivityPreference>13</idActivityPreference>
+        <name>sport</name>
+        <place>Trento city</place>
+        <startdate>2017-09-13T12:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>swimming</description>
+        <idActivityPreference>17</idActivityPreference>
+        <name>sport</name>
+        <place>Trento city</place>
+        <startdate>2017-09-13T12:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>swimming</description>
+        <idActivityPreference>21</idActivityPreference>
+        <name>sport</name>
+        <place>Trento city</place>
+        <startdate>2017-09-13T12:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>swimming</description>
+        <idActivityPreference>26</idActivityPreference>
+        <name>sport</name>
+        <place>Trento city</place>
+        <startdate>2017-09-13T12:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>swimming</description>
+        <idActivityPreference>31</idActivityPreference>
+        <name>sport</name>
+        <place>Trento city</place>
+        <startdate>2017-09-13T12:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>swimming</description>
+        <idActivityPreference>36</idActivityPreference>
+        <name>sport</name>
+        <place>Trento city</place>
+        <startdate>2017-09-13T12:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>swimming</description>
+        <idActivityPreference>40</idActivityPreference>
+        <name>sport</name>
+        <place>Trento city</place>
+        <startdate>2017-09-13T12:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>swimming</description>
+        <idActivityPreference>44</idActivityPreference>
+        <name>sport</name>
+        <place>Trento city</place>
+        <startdate>2017-09-13T12:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>swimming</description>
+        <idActivityPreference>48</idActivityPreference>
+        <name>sport</name>
+        <place>Trento city</place>
+        <startdate>2017-09-13T12:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>swimming</description>
+        <idActivityPreference>52</idActivityPreference>
+        <name>sport</name>
+        <place>Trento city</place>
+        <startdate>2017-09-13T12:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>swimming</description>
+        <idActivityPreference>58</idActivityPreference>
+        <name>sport</name>
+        <place>Trento city</place>
+        <startdate>2017-09-13T12:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>swimming</description>
+        <idActivityPreference>64</idActivityPreference>
+        <name>sport</name>
+        <place>Trento city</place>
+        <startdate>2017-09-13T12:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>swimming</description>
+        <idActivityPreference>70</idActivityPreference>
+        <name>sport</name>
+        <place>Trento city</place>
+        <startdate>2017-09-13T12:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>swimming</description>
+        <idActivityPreference>76</idActivityPreference>
+        <name>sport</name>
+        <place>Trento city</place>
+        <startdate>2017-09-13T12:00:00.0</startdate>
+      </activity>
+    </preferences>
+    <birthdate>11-12-1988</birthdate>
+    <firstname>john</firstname>
+    <idPerson>2</idPerson>
+    <lastname>john</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activity>
+        <description>football</description>
+        <idActivityPreference>2</idActivityPreference>
+        <name>sport</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T19:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>football</description>
+        <idActivityPreference>6</idActivityPreference>
+        <name>sport</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T19:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>football</description>
+        <idActivityPreference>10</idActivityPreference>
+        <name>sport</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T19:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>football</description>
+        <idActivityPreference>14</idActivityPreference>
+        <name>sport</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T19:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>football</description>
+        <idActivityPreference>18</idActivityPreference>
+        <name>sport</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T19:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>football</description>
+        <idActivityPreference>22</idActivityPreference>
+        <name>sport</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T19:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>football</description>
+        <idActivityPreference>27</idActivityPreference>
+        <name>sport</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T19:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>football</description>
+        <idActivityPreference>32</idActivityPreference>
+        <name>sport</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T19:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>football</description>
+        <idActivityPreference>37</idActivityPreference>
+        <name>sport</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T19:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>football</description>
+        <idActivityPreference>41</idActivityPreference>
+        <name>sport</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T19:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>football</description>
+        <idActivityPreference>45</idActivityPreference>
+        <name>sport</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T19:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>football</description>
+        <idActivityPreference>49</idActivityPreference>
+        <name>sport</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T19:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>football</description>
+        <idActivityPreference>53</idActivityPreference>
+        <name>sport</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T19:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>football</description>
+        <idActivityPreference>59</idActivityPreference>
+        <name>sport</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T19:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>football</description>
+        <idActivityPreference>65</idActivityPreference>
+        <name>sport</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T19:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>football</description>
+        <idActivityPreference>71</idActivityPreference>
+        <name>sport</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T19:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>football</description>
+        <idActivityPreference>77</idActivityPreference>
+        <name>sport</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T19:00:00.0</startdate>
+      </activity>
+    </preferences>
+    <birthdate>18-09-1958</birthdate>
+    <firstname>marc</firstname>
+    <idPerson>3</idPerson>
+    <lastname>marc</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activity>
+        <description>discussion</description>
+        <idActivityPreference>3</idActivityPreference>
+        <name>social</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T20:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>discussion</description>
+        <idActivityPreference>7</idActivityPreference>
+        <name>social</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T20:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>discussion</description>
+        <idActivityPreference>11</idActivityPreference>
+        <name>social</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T20:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>discussion</description>
+        <idActivityPreference>15</idActivityPreference>
+        <name>social</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T20:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>discussion</description>
+        <idActivityPreference>19</idActivityPreference>
+        <name>social</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T20:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>discussion</description>
+        <idActivityPreference>23</idActivityPreference>
+        <name>social</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T20:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>discussion</description>
+        <idActivityPreference>28</idActivityPreference>
+        <name>social</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T20:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>discussion</description>
+        <idActivityPreference>33</idActivityPreference>
+        <name>social</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T20:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>discussion</description>
+        <idActivityPreference>38</idActivityPreference>
+        <name>social</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T20:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>discussion</description>
+        <idActivityPreference>42</idActivityPreference>
+        <name>social</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T20:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>discussion</description>
+        <idActivityPreference>46</idActivityPreference>
+        <name>social</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T20:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>discussion</description>
+        <idActivityPreference>50</idActivityPreference>
+        <name>social</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T20:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>discussion</description>
+        <idActivityPreference>54</idActivityPreference>
+        <name>social</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T20:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>discussion</description>
+        <idActivityPreference>60</idActivityPreference>
+        <name>social</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T20:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>discussion</description>
+        <idActivityPreference>66</idActivityPreference>
+        <name>social</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T20:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>discussion</description>
+        <idActivityPreference>72</idActivityPreference>
+        <name>social</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T20:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>discussion</description>
+        <idActivityPreference>78</idActivityPreference>
+        <name>social</name>
+        <place>sanbartolameo</place>
+        <startdate>2017-09-13T20:00:00.0</startdate>
+      </activity>
+    </preferences>
+    <birthdate>19-07-1968</birthdate>
+    <firstname>paul</firstname>
+    <idPerson>4</idPerson>
+    <lastname>paul</lastname>
+  </person>
+  <person>
+    <preferences>
+      <activity>
+        <description>economics</description>
+        <idActivityPreference>4</idActivityPreference>
+        <name>school</name>
+        <place>povo</place>
+        <startdate>2017-09-13T9:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>economics</description>
+        <idActivityPreference>8</idActivityPreference>
+        <name>school</name>
+        <place>povo</place>
+        <startdate>2017-09-13T9:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>economics</description>
+        <idActivityPreference>12</idActivityPreference>
+        <name>school</name>
+        <place>povo</place>
+        <startdate>2017-09-13T9:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>economics</description>
+        <idActivityPreference>16</idActivityPreference>
+        <name>school</name>
+        <place>povo</place>
+        <startdate>2017-09-13T9:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>economics</description>
+        <idActivityPreference>20</idActivityPreference>
+        <name>school</name>
+        <place>povo</place>
+        <startdate>2017-09-13T9:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>economics</description>
+        <idActivityPreference>24</idActivityPreference>
+        <name>school</name>
+        <place>povo</place>
+        <startdate>2017-09-13T9:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>economics</description>
+        <idActivityPreference>29</idActivityPreference>
+        <name>school</name>
+        <place>povo</place>
+        <startdate>2017-09-13T9:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>economics</description>
+        <idActivityPreference>34</idActivityPreference>
+        <name>school</name>
+        <place>povo</place>
+        <startdate>2017-09-13T9:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>economics</description>
+        <idActivityPreference>39</idActivityPreference>
+        <name>school</name>
+        <place>povo</place>
+        <startdate>2017-09-13T9:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>economics</description>
+        <idActivityPreference>43</idActivityPreference>
+        <name>school</name>
+        <place>povo</place>
+        <startdate>2017-09-13T9:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>economics</description>
+        <idActivityPreference>47</idActivityPreference>
+        <name>school</name>
+        <place>povo</place>
+        <startdate>2017-09-13T9:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>economics</description>
+        <idActivityPreference>51</idActivityPreference>
+        <name>school</name>
+        <place>povo</place>
+        <startdate>2017-09-13T9:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>economics</description>
+        <idActivityPreference>55</idActivityPreference>
+        <name>school</name>
+        <place>povo</place>
+        <startdate>2017-09-13T9:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>economics</description>
+        <idActivityPreference>61</idActivityPreference>
+        <name>school</name>
+        <place>povo</place>
+        <startdate>2017-09-13T9:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>economics</description>
+        <idActivityPreference>67</idActivityPreference>
+        <name>school</name>
+        <place>povo</place>
+        <startdate>2017-09-13T9:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>economics</description>
+        <idActivityPreference>73</idActivityPreference>
+        <name>school</name>
+        <place>povo</place>
+        <startdate>2017-09-13T9:00:00.0</startdate>
+      </activity>
+      <activity>
+        <description>economics</description>
+        <idActivityPreference>79</idActivityPreference>
+        <name>school</name>
+        <place>povo</place>
+        <startdate>2017-09-13T9:00:00.0</startdate>
+      </activity>
+    </preferences>
+    <birthdate>20-10-1990</birthdate>
+    <firstname>esther</firstname>
+    <idPerson>5</idPerson>
+    <lastname>esther</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>1-11-1978</birthdate>
+    <firstname>Matthieu</firstname>
+    <idPerson>6</idPerson>
+    <lastname>Marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>01-01-1967</birthdate>
+    <firstname>Chuck JSON</firstname>
+    <idPerson>7</idPerson>
+    <lastname>Norris</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>17-02-1978</birthdate>
+    <firstname>mario</firstname>
+    <idPerson>8</idPerson>
+    <lastname>marco</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>11-12-1988</birthdate>
+    <firstname>john</firstname>
+    <idPerson>9</idPerson>
+    <lastname>john</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>18-09-1958</birthdate>
+    <firstname>marc</firstname>
+    <idPerson>10</idPerson>
+    <lastname>marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>19-07-1968</birthdate>
+    <firstname>paul</firstname>
+    <idPerson>11</idPerson>
+    <lastname>paul</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>20-10-1990</birthdate>
+    <firstname>esther</firstname>
+    <idPerson>12</idPerson>
+    <lastname>esther</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>1-11-1978</birthdate>
+    <firstname>Matthieu</firstname>
+    <idPerson>13</idPerson>
+    <lastname>Marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>01-01-1967</birthdate>
+    <firstname>Chuck JSON</firstname>
+    <idPerson>14</idPerson>
+    <lastname>Norris</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>17-02-1978</birthdate>
+    <firstname>mario</firstname>
+    <idPerson>15</idPerson>
+    <lastname>marco</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>11-12-1988</birthdate>
+    <firstname>john</firstname>
+    <idPerson>16</idPerson>
+    <lastname>john</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>18-09-1958</birthdate>
+    <firstname>marc</firstname>
+    <idPerson>17</idPerson>
+    <lastname>marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>19-07-1968</birthdate>
+    <firstname>paul</firstname>
+    <idPerson>18</idPerson>
+    <lastname>paul</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>20-10-1990</birthdate>
+    <firstname>esther</firstname>
+    <idPerson>19</idPerson>
+    <lastname>esther</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>1-11-1978</birthdate>
+    <firstname>Matthieu</firstname>
+    <idPerson>20</idPerson>
+    <lastname>Marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>01-01-1967</birthdate>
+    <firstname>Chuck JSON</firstname>
+    <idPerson>21</idPerson>
+    <lastname>Norris</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>17-02-1978</birthdate>
+    <firstname>mario</firstname>
+    <idPerson>22</idPerson>
+    <lastname>marco</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>11-12-1988</birthdate>
+    <firstname>john</firstname>
+    <idPerson>23</idPerson>
+    <lastname>john</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>18-09-1958</birthdate>
+    <firstname>marc</firstname>
+    <idPerson>24</idPerson>
+    <lastname>marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>19-07-1968</birthdate>
+    <firstname>paul</firstname>
+    <idPerson>25</idPerson>
+    <lastname>paul</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>20-10-1990</birthdate>
+    <firstname>esther</firstname>
+    <idPerson>26</idPerson>
+    <lastname>esther</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>1-11-1978</birthdate>
+    <firstname>Matthieu</firstname>
+    <idPerson>27</idPerson>
+    <lastname>Marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>01-01-1967</birthdate>
+    <firstname>Chuck JSON</firstname>
+    <idPerson>28</idPerson>
+    <lastname>Norris</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>17-02-1978</birthdate>
+    <firstname>mario</firstname>
+    <idPerson>29</idPerson>
+    <lastname>marco</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>11-12-1988</birthdate>
+    <firstname>john</firstname>
+    <idPerson>30</idPerson>
+    <lastname>john</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>18-09-1958</birthdate>
+    <firstname>marc</firstname>
+    <idPerson>31</idPerson>
+    <lastname>marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>19-07-1968</birthdate>
+    <firstname>paul</firstname>
+    <idPerson>32</idPerson>
+    <lastname>paul</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>20-10-1990</birthdate>
+    <firstname>esther</firstname>
+    <idPerson>33</idPerson>
+    <lastname>esther</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>1-11-1978</birthdate>
+    <firstname>Matthieu</firstname>
+    <idPerson>34</idPerson>
+    <lastname>Marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>01-01-1967</birthdate>
+    <firstname>Chuck JSON</firstname>
+    <idPerson>35</idPerson>
+    <lastname>Norris</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>17-02-1978</birthdate>
+    <firstname>mario</firstname>
+    <idPerson>36</idPerson>
+    <lastname>marco</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>11-12-1988</birthdate>
+    <firstname>john</firstname>
+    <idPerson>37</idPerson>
+    <lastname>john</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>18-09-1958</birthdate>
+    <firstname>marc</firstname>
+    <idPerson>38</idPerson>
+    <lastname>marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>19-07-1968</birthdate>
+    <firstname>paul</firstname>
+    <idPerson>39</idPerson>
+    <lastname>paul</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>20-10-1990</birthdate>
+    <firstname>esther</firstname>
+    <idPerson>40</idPerson>
+    <lastname>esther</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>1-11-1978</birthdate>
+    <firstname>Matthieu</firstname>
+    <idPerson>41</idPerson>
+    <lastname>Marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>01-01-1967</birthdate>
+    <firstname>Chuck JSON</firstname>
+    <idPerson>42</idPerson>
+    <lastname>Norris</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>17-02-1978</birthdate>
+    <firstname>mario</firstname>
+    <idPerson>43</idPerson>
+    <lastname>marco</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>11-12-1988</birthdate>
+    <firstname>john</firstname>
+    <idPerson>44</idPerson>
+    <lastname>john</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>18-09-1958</birthdate>
+    <firstname>marc</firstname>
+    <idPerson>45</idPerson>
+    <lastname>marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>19-07-1968</birthdate>
+    <firstname>paul</firstname>
+    <idPerson>46</idPerson>
+    <lastname>paul</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>20-10-1990</birthdate>
+    <firstname>esther</firstname>
+    <idPerson>47</idPerson>
+    <lastname>esther</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>1-11-1978</birthdate>
+    <firstname>Matthieu</firstname>
+    <idPerson>48</idPerson>
+    <lastname>Marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>01-01-1967</birthdate>
+    <firstname>Chuck JSON</firstname>
+    <idPerson>49</idPerson>
+    <lastname>Norris</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>17-02-1978</birthdate>
+    <firstname>mario</firstname>
+    <idPerson>50</idPerson>
+    <lastname>marco</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>11-12-1988</birthdate>
+    <firstname>john</firstname>
+    <idPerson>51</idPerson>
+    <lastname>john</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>18-09-1958</birthdate>
+    <firstname>marc</firstname>
+    <idPerson>52</idPerson>
+    <lastname>marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>19-07-1968</birthdate>
+    <firstname>paul</firstname>
+    <idPerson>53</idPerson>
+    <lastname>paul</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>20-10-1990</birthdate>
+    <firstname>esther</firstname>
+    <idPerson>54</idPerson>
+    <lastname>esther</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>1-11-1978</birthdate>
+    <firstname>Matthieu</firstname>
+    <idPerson>55</idPerson>
+    <lastname>Marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>01-01-1967</birthdate>
+    <firstname>Chuck JSON</firstname>
+    <idPerson>56</idPerson>
+    <lastname>Norris</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>17-02-1978</birthdate>
+    <firstname>mario</firstname>
+    <idPerson>57</idPerson>
+    <lastname>marco</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>11-12-1988</birthdate>
+    <firstname>john</firstname>
+    <idPerson>58</idPerson>
+    <lastname>john</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>18-09-1958</birthdate>
+    <firstname>marc</firstname>
+    <idPerson>59</idPerson>
+    <lastname>marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>19-07-1968</birthdate>
+    <firstname>paul</firstname>
+    <idPerson>60</idPerson>
+    <lastname>paul</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>20-10-1990</birthdate>
+    <firstname>esther</firstname>
+    <idPerson>61</idPerson>
+    <lastname>esther</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>1-11-1978</birthdate>
+    <firstname>Matthieu</firstname>
+    <idPerson>62</idPerson>
+    <lastname>Marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>01-01-1967</birthdate>
+    <firstname>Chuck JSON</firstname>
+    <idPerson>63</idPerson>
+    <lastname>Norris</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>17-02-1978</birthdate>
+    <firstname>mario</firstname>
+    <idPerson>64</idPerson>
+    <lastname>marco</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>11-12-1988</birthdate>
+    <firstname>john</firstname>
+    <idPerson>65</idPerson>
+    <lastname>john</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>18-09-1958</birthdate>
+    <firstname>marc</firstname>
+    <idPerson>66</idPerson>
+    <lastname>marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>19-07-1968</birthdate>
+    <firstname>paul</firstname>
+    <idPerson>67</idPerson>
+    <lastname>paul</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>20-10-1990</birthdate>
+    <firstname>esther</firstname>
+    <idPerson>68</idPerson>
+    <lastname>esther</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>1-11-1978</birthdate>
+    <firstname>Matthieu</firstname>
+    <idPerson>69</idPerson>
+    <lastname>Marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>01-01-1967</birthdate>
+    <firstname>Chuck JSON</firstname>
+    <idPerson>70</idPerson>
+    <lastname>Norris</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>17-02-1978</birthdate>
+    <firstname>mario</firstname>
+    <idPerson>71</idPerson>
+    <lastname>marco</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>11-12-1988</birthdate>
+    <firstname>john</firstname>
+    <idPerson>72</idPerson>
+    <lastname>john</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>18-09-1958</birthdate>
+    <firstname>marc</firstname>
+    <idPerson>73</idPerson>
+    <lastname>marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>19-07-1968</birthdate>
+    <firstname>paul</firstname>
+    <idPerson>74</idPerson>
+    <lastname>paul</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>20-10-1990</birthdate>
+    <firstname>esther</firstname>
+    <idPerson>75</idPerson>
+    <lastname>esther</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>1-11-1978</birthdate>
+    <firstname>Matthieu</firstname>
+    <idPerson>76</idPerson>
+    <lastname>Marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>01-01-1967</birthdate>
+    <firstname>Chuck JSON</firstname>
+    <idPerson>77</idPerson>
+    <lastname>Norris</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>17-02-1978</birthdate>
+    <firstname>mario</firstname>
+    <idPerson>78</idPerson>
+    <lastname>marco</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>11-12-1988</birthdate>
+    <firstname>john</firstname>
+    <idPerson>79</idPerson>
+    <lastname>john</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>18-09-1958</birthdate>
+    <firstname>marc</firstname>
+    <idPerson>80</idPerson>
+    <lastname>marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>19-07-1968</birthdate>
+    <firstname>paul</firstname>
+    <idPerson>81</idPerson>
+    <lastname>paul</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>20-10-1990</birthdate>
+    <firstname>esther</firstname>
+    <idPerson>82</idPerson>
+    <lastname>esther</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>1-11-1978</birthdate>
+    <firstname>Matthieu</firstname>
+    <idPerson>83</idPerson>
+    <lastname>Marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>01-01-1967</birthdate>
+    <firstname>Chuck JSON</firstname>
+    <idPerson>84</idPerson>
+    <lastname>Norris</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>17-02-1978</birthdate>
+    <firstname>mario</firstname>
+    <idPerson>85</idPerson>
+    <lastname>marco</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>11-12-1988</birthdate>
+    <firstname>john</firstname>
+    <idPerson>86</idPerson>
+    <lastname>john</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>18-09-1958</birthdate>
+    <firstname>marc</firstname>
+    <idPerson>87</idPerson>
+    <lastname>marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>19-07-1968</birthdate>
+    <firstname>paul</firstname>
+    <idPerson>88</idPerson>
+    <lastname>paul</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>20-10-1990</birthdate>
+    <firstname>esther</firstname>
+    <idPerson>89</idPerson>
+    <lastname>esther</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>1-11-1978</birthdate>
+    <firstname>Matthieu</firstname>
+    <idPerson>90</idPerson>
+    <lastname>Marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>01-01-1967</birthdate>
+    <firstname>Chuck JSON</firstname>
+    <idPerson>91</idPerson>
+    <lastname>Norris</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>17-02-1978</birthdate>
+    <firstname>mario</firstname>
+    <idPerson>92</idPerson>
+    <lastname>marco</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>11-12-1988</birthdate>
+    <firstname>john</firstname>
+    <idPerson>93</idPerson>
+    <lastname>john</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>18-09-1958</birthdate>
+    <firstname>marc</firstname>
+    <idPerson>94</idPerson>
+    <lastname>marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>19-07-1968</birthdate>
+    <firstname>paul</firstname>
+    <idPerson>95</idPerson>
+    <lastname>paul</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>20-10-1990</birthdate>
+    <firstname>esther</firstname>
+    <idPerson>96</idPerson>
+    <lastname>esther</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>1-11-1978</birthdate>
+    <firstname>Matthieu</firstname>
+    <idPerson>97</idPerson>
+    <lastname>Marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>01-01-1967</birthdate>
+    <firstname>Chuck JSON</firstname>
+    <idPerson>98</idPerson>
+    <lastname>Norris</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>17-02-1978</birthdate>
+    <firstname>mario</firstname>
+    <idPerson>99</idPerson>
+    <lastname>marco</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>11-12-1988</birthdate>
+    <firstname>john</firstname>
+    <idPerson>100</idPerson>
+    <lastname>john</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>18-09-1958</birthdate>
+    <firstname>marc</firstname>
+    <idPerson>101</idPerson>
+    <lastname>marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>19-07-1968</birthdate>
+    <firstname>paul</firstname>
+    <idPerson>102</idPerson>
+    <lastname>paul</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>20-10-1990</birthdate>
+    <firstname>esther</firstname>
+    <idPerson>103</idPerson>
+    <lastname>esther</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>1-11-1978</birthdate>
+    <firstname>Matthieu</firstname>
+    <idPerson>104</idPerson>
+    <lastname>Marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>01-01-1967</birthdate>
+    <firstname>Chuck JSON</firstname>
+    <idPerson>105</idPerson>
+    <lastname>Norris</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>17-02-1978</birthdate>
+    <firstname>mario</firstname>
+    <idPerson>106</idPerson>
+    <lastname>marco</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>11-12-1988</birthdate>
+    <firstname>john</firstname>
+    <idPerson>107</idPerson>
+    <lastname>john</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>18-09-1958</birthdate>
+    <firstname>marc</firstname>
+    <idPerson>108</idPerson>
+    <lastname>marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>19-07-1968</birthdate>
+    <firstname>paul</firstname>
+    <idPerson>109</idPerson>
+    <lastname>paul</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>20-10-1990</birthdate>
+    <firstname>esther</firstname>
+    <idPerson>110</idPerson>
+    <lastname>esther</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>1-11-1978</birthdate>
+    <firstname>Matthieu</firstname>
+    <idPerson>111</idPerson>
+    <lastname>Marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>01-01-1967</birthdate>
+    <firstname>Chuck JSON</firstname>
+    <idPerson>112</idPerson>
+    <lastname>Norris</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>17-02-1978</birthdate>
+    <firstname>mario</firstname>
+    <idPerson>113</idPerson>
+    <lastname>marco</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>11-12-1988</birthdate>
+    <firstname>john</firstname>
+    <idPerson>114</idPerson>
+    <lastname>john</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>18-09-1958</birthdate>
+    <firstname>marc</firstname>
+    <idPerson>115</idPerson>
+    <lastname>marc</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>19-07-1968</birthdate>
+    <firstname>paul</firstname>
+    <idPerson>116</idPerson>
+    <lastname>paul</lastname>
+  </person>
+  <person>
+    <preferences/>
+    <birthdate>20-10-1990</birthdate>
+    <firstname>esther</firstname>
+    <idPerson>117</idPerson>
+    <lastname>esther</lastname>
+  </person>
+</people>
+
+
+
+ Request #2 : GET  /person/1 Accept: application/xml ContentType: application/xml 
+ => Result: ok 
+ => HTTP Status: 200
+ <person>
+  <preferences>
+    <activity>
+      <description>bike race</description>
+      <idActivityPreference>25</idActivityPreference>
+      <name>sport</name>
+      <place>trento</place>
+      <startdate>1-11-1978</startdate>
+    </activity>
+    <activity>
+      <description>bike race</description>
+      <idActivityPreference>30</idActivityPreference>
+      <name>sport</name>
+      <place>trento</place>
+      <startdate>1-11-1978</startdate>
+    </activity>
+    <activity>
+      <description>bike race</description>
+      <idActivityPreference>35</idActivityPreference>
+      <name>sport</name>
+      <place>trento</place>
+      <startdate>1-11-1978</startdate>
+    </activity>
+    <activity>
+      <description>bike race</description>
+      <idActivityPreference>56</idActivityPreference>
+      <name>sport</name>
+      <place>trento</place>
+      <startdate>1-11-1978</startdate>
+    </activity>
+    <activity>
+      <description>bike race</description>
+      <idActivityPreference>57</idActivityPreference>
+      <name>sport</name>
+      <place>trento</place>
+      <startdate>1-11-1978</startdate>
+    </activity>
+    <activity>
+      <description>bike race</description>
+      <idActivityPreference>62</idActivityPreference>
+      <name>sport</name>
+      <place>trento</place>
+      <startdate>1-11-1978</startdate>
+    </activity>
+    <activity>
+      <description>bike race</description>
+      <idActivityPreference>63</idActivityPreference>
+      <name>sport</name>
+      <place>trento</place>
+      <startdate>1-11-1978</startdate>
+    </activity>
+    <activity>
+      <description>bike race</description>
+      <idActivityPreference>68</idActivityPreference>
+      <name>sport</name>
+      <place>trento</place>
+      <startdate>1-11-1978</startdate>
+    </activity>
+    <activity>
+      <description>bike race</description>
+      <idActivityPreference>69</idActivityPreference>
+      <name>sport</name>
+      <place>trento</place>
+      <startdate>1-11-1978</startdate>
+    </activity>
+    <activity>
+      <description>bike race</description>
+      <idActivityPreference>74</idActivityPreference>
+      <name>sport</name>
+      <place>trento</place>
+      <startdate>1-11-1978</startdate>
+    </activity>
+    <activity>
+      <description>bike race</description>
+      <idActivityPreference>75</idActivityPreference>
+      <name>sport</name>
+      <place>trento</place>
+      <startdate>1-11-1978</startdate>
+    </activity>
+  </preferences>
+  <birthdate>17-02-1978</birthdate>
+  <firstname>Jonas JSON</firstname>
+  <idPerson>1</idPerson>
+  <lastname>marco</lastname>
+</person>
+
+
+
+ Request #3 : PUT  /person/first_person_id Accept: application/xml ContentType: application/xml 
+ => Result: ok 
+ => HTTP Status: 200
+ <person>
+  <preferences/>
+  <birthdate>17-02-1978</birthdate>
+  <firstname>jonas</firstname>
+  <idPerson>1</idPerson>
+  <lastname>marco</lastname>
+</person>
+
+
+
+ Request #3 : POST  /person Accept: application/xml ContentType: application/xml 
+ => Result: ok 
+ => HTTP Status: 200
+ <person>
+  <birthdate>1-11-1978</birthdate>
+  <firstname>Matthieu</firstname>
+  <idPerson>118</idPerson>
+  <lastname>Marc</lastname>
+</person>
+
+
+
+ Request #5 : GET  /person/119 Accept: application/xml ContentType: application/xml 
+ => Result: ok 
+ => HTTP Status: 200
+ <person>
+  <preferences/>
+  <birthdate>01-01-1967</birthdate>
+  <firstname>Chuck JSON</firstname>
+  <idPerson>119</idPerson>
+  <lastname>Norris</lastname>
+</person>
+
+
+
+ Request #5 : GET  /person/119 Accept: application/xml ContentType: application/xml 
+ => Result: error 
+ => HTTP Status: 200
+ <person>
+  <preferences/>
+  <birthdate>01-01-1967</birthdate>
+  <firstname>Chuck JSON</firstname>
+  <idPerson>119</idPerson>
+  <lastname>Norris</lastname>
+</person>
+
+
+
+ Request #6 : GET  /activity_types Accept: application/xml ContentType: application/xml 
+ => Result: ok 
+ => HTTP Status: 200
+ <activities>
+  <activity_type>sport</activity_type>
+  <activity_type>social</activity_type>
+  <activity_type>school</activity_type>
+  <activity_type>dancing</activity_type>
+</activities>
+
+
+
+ Request #7 : GET  /person/first_person_id Accept: application/xml ContentType: application/xml 
+ => Result: ok 
+ => HTTP Status: 200
+ <healthMeasureHistories>
+  <healthMeasureHistory>
+    <description>walking</description>
+    <activity_id>1</activity_id>
+    <place>centro citta</place>
+    <startdate>2017-10-13T13:27:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>3</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>5</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>7</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>9</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>11</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>13</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>15</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>17</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>19</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>21</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>23</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>25</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>27</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>29</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>31</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>33</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+</healthMeasureHistories>
+
+
+
+ Request #7 : GET  /person/first_person_id Accept: application/xml ContentType: application/xml 
+ => Result: error 
+ => HTTP Status: 200
+ <healthMeasureHistories/>
+
+
+
+ Request #7 : GET  /person/first_person_id Accept: application/xml ContentType: application/xml 
+ => Result: error 
+ => HTTP Status: 200
+ <healthMeasureHistories/>
+
+
+
+ Request #7 : GET  /person/first_person_id Accept: application/xml ContentType: application/xml 
+ => Result: error 
+ => HTTP Status: 200
+ <healthMeasureHistories/>
+
+
+
+ Request #7 : GET  /person/first_person_id Accept: application/xml ContentType: application/xml 
+ => Result: error 
+ => HTTP Status: 200
+ <healthMeasureHistories/>
+
+
+
+ Request #7 : GET  /person/first_person_id Accept: application/xml ContentType: application/xml 
+ => Result: error 
+ => HTTP Status: 200
+ <healthMeasureHistories/>
+
+
+
+ Request #7 : GET  /person/first_person_id Accept: application/xml ContentType: application/xml 
+ => Result: error 
+ => HTTP Status: 200
+ <healthMeasureHistories/>
+
+
+
+ Request #7 : GET  /person/first_person_id Accept: application/xml ContentType: application/xml 
+ => Result: error 
+ => HTTP Status: 200
+ <healthMeasureHistories/>
+
+
+
+ Request #8 : GET  person/1/sport/1 Accept: application/xml ContentType: application/xml 
+ => Result: ok 
+ => HTTP Status: 200
+ <healthMeasureHistory>
+  <description>walking</description>
+  <activity_id>1</activity_id>
+  <place>centro citta</place>
+  <startdate>2017-10-13T13:27:00.0</startdate>
+</healthMeasureHistory>
+
+
+
+ Request #9 : GET  /person/first_person_id Accept: application/xml ContentType: application/xml 
+ => Result: ok 
+ => HTTP Status: 200
+ <healthMeasureHistories>
+  <healthMeasureHistory>
+    <description>walking</description>
+    <activity_id>1</activity_id>
+    <place>centro citta</place>
+    <startdate>2017-10-13T13:27:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>3</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>5</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>7</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>9</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>11</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>13</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>15</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>17</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>19</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>21</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>23</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>25</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>27</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>29</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>31</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+  <healthMeasureHistory>
+    <description>swimming</description>
+    <activity_id>33</activity_id>
+    <place>Trento city</place>
+    <startdate>2017-09-13T12:00:00.0</startdate>
+  </healthMeasureHistory>
+</healthMeasureHistories>
+
+
+
+ Request #9 : POST  /person Accept: application/xml ContentType: application/xml 
+ => Result: ok 
+ => HTTP Status: 200
+ <activitypreference>
+  <description>bike race</description>
+  <idActivityPreference>80</idActivityPreference>
+  <name>sport</name>
+  <place>trento</place>
+  <startdate>1-11-1978</startdate>
+</activitypreference>
+
+
+
+ Request #3 : PUT  person/1/sport/1 Accept: application/xml ContentType: application/xml 
+ => Result: ok 
+ => HTTP Status: 200
+ <healthMeasureHistory>
+  <description>walking</description>
+  <activity_id>1</activity_id>
+  <place>centro citta</place>
+  <startdate>2017-10-13T13:27:00.0</startdate>
+</healthMeasureHistory>
+
