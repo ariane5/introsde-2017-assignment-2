@@ -149,6 +149,8 @@ public class HealthMeasureHistory implements Serializable {
 		public static HealthMeasureHistory getHistoryByPersonAndTypeAndactivity_id(Person p,Activity md,int activity_id) {
 	        EntityManager em = LifeCoachDao.instance.createEntityManager();
 	       // MeasureDefinition  md=MeasureDefinition.getMeasureDefinitionByMN(measureType);
+	        
+			
 	        HealthMeasureHistory sr = em.createNamedQuery("HealthMeasureHistory.findByPersonTypeAndId",
 	        		HealthMeasureHistory.class)
 	        	.setParameter("person", p)
@@ -161,6 +163,24 @@ public class HealthMeasureHistory implements Serializable {
 	        return sr;
 	    }
 		
+		
+		public static HealthMeasureHistory saveHistoryByPersonAndTypeAndactivity_id(HealthMeasureHistory h,String  activity_type,int activity_id,int id) {
+	        EntityManager em = LifeCoachDao.instance.createEntityManager();
+	       // MeasureDefinition  md=MeasureDefinition.getMeasureDefinitionByMN(measureType);
+	        Activity a = Activity.getActivityByActivtyType(activity_type);
+			Person p= Person.getPersonById(id);
+			h.setActivity(a);
+			h.setPerson(p);
+			h.setIdMeasureHistory(activity_id);
+	        EntityTransaction tx = em.getTransaction();
+			tx.begin();
+			em.persist(h);
+			tx.commit();
+
+	        LifeCoachDao.instance.closeConnections(em);
+
+	        return h;
+		}
 		
 		
 		

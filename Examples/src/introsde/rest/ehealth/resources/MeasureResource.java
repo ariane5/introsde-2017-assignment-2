@@ -25,8 +25,7 @@ import javax.ws.rs.core.UriInfo;
 //activity_types
 @Path("/activity_types")
 public class MeasureResource {
-	// Allows to insert contextual objects into the class,
-		// e.g. ServletContext, Request, Response, UriInfo
+	
 		@Context
 		UriInfo uriInfo;
 		@Context

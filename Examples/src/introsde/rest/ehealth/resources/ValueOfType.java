@@ -63,12 +63,14 @@ public class ValueOfType {
 	public List<HealthMeasureHistory> getHistory() {
 
 	    Person person = Person.getPersonById(this.id);
+	    System.out.println("success 3");
 	    Activity  md = Activity.getActivityByActivtyType(this.activity_type) ;
+	    System.out.println("success 1");
 	    if (person == null||md == null) {
 	        	System.out.println("[Error] Get: Person with id " + this.id + " not found");
 	            throw new RuntimeException("Get: Person with " + id + " and measure Name "+activity_type+"not found");
 	        }
-	        
+	    System.out.println("success 2");
 	    System.out.println("Returning person with id :="+"" + person.getIdPerson()+""+ "and measuretype  := "+"" + md.getName() +""+""+md.getIdActivity() );
 	    return HealthMeasureHistory.getHistoryByPersonAndMeasureType(person, md);
 	    
@@ -87,7 +89,9 @@ public class ValueOfType {
 		ActivityPreference hm = ActivityPreference.saveActivity(h, this.id , this.activity_type);
 	        
 	     return hm;
-	 }
+	     }
+	
+	
 	
 	// Defines that the next path parameter after the base url is
 	// treated as a parameter and passed to the PersonResources

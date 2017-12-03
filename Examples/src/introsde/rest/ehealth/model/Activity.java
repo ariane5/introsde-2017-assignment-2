@@ -72,12 +72,19 @@ private static final long serialVersionUID = 1L;
 		
 		public static Activity getActivityByActivtyType(String name) {
 			EntityManager em = LifeCoachDao.instance.createEntityManager();
-			Activity a = em.createNamedQuery("Activity.findByName",Activity.class).setParameter("name",name).getSingleResult();
+			//Activity a
+			List<Activity> list= em.createNamedQuery("Activity.findByName",Activity.class).setParameter("name",name).getResultList();
+			Activity a =list.get(0);
 			//Activity p = em.find(Activity.class, activity_type);
 			LifeCoachDao.instance.closeConnections(em);
 			return a;
 		}
-		
+		public static Activity getActivityById(int activityId) {
+			EntityManager em = LifeCoachDao.instance.createEntityManager();
+			Activity p = em.find(Activity.class, activityId);
+			LifeCoachDao.instance.closeConnections(em);
+			return p;
+		}
 		
 		/**
 		 * get the whole Activity database

@@ -88,11 +88,11 @@ public class ValueOfTypeAndMid {
 		int n= HealthMeasureHistory.getAll().size();
 		HealthMeasureHistory h = new HealthMeasureHistory();
 	    Activity a =	Activity.getActivityByActivtyType(this.activity_type);
-	    System.out.println("success1");
+	    
 
 	    Person p= Person.getPersonById(this.id);
 		HealthMeasureHistory h1=HealthMeasureHistory.getHistoryByPersonAndTypeAndactivity_id(p, a, this.activity_id);
-	    System.out.println("success2");
+	   
 
 		if (h1== null) {
 	
@@ -100,7 +100,6 @@ public class ValueOfTypeAndMid {
 		  return null;
 			
 		} else {
-		    System.out.println("success3");
 
 		    h.setActivity(h1.getActivity());
 		    h.setDescription(hmh.getDescription());
@@ -109,12 +108,25 @@ public class ValueOfTypeAndMid {
 		    h.setPlace(hmh.getPlace());
 		    h.setStartdate(hmh.getStartdate());
 		                           
-			
+			h.setIdMeasureHistory(n+1);
 		    HealthMeasureHistory pq =HealthMeasureHistory.updateHealthMeasureHistory(h);
 			return pq;
 		}
     }
 
+	
+	@POST
+	@Consumes({ MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON,MediaType.TEXT_XML })
+	@Produces({ MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON,MediaType.TEXT_XML })
+   public HealthMeasureHistory postActivity(HealthMeasureHistory h) {
+
+		int n= HealthMeasureHistory.getAll().size();
+		
+	     h.setIdMeasureHistory(n+1);
+	     HealthMeasureHistory hm = HealthMeasureHistory.saveHistoryByPersonAndTypeAndactivity_id(h, this.activity_type, this.activity_id, this.id);
+	        
+	     return hm;
+    }
 	
 	
 	

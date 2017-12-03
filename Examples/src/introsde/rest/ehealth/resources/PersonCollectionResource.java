@@ -41,7 +41,7 @@ public class PersonCollectionResource {
 	UriInfo uriInfo;
 	@Context
 	Request request;
-
+    private static int count;
 	// THIS IS NOT WORKING
 	@PersistenceUnit(unitName="assign21")
 	EntityManager entityManager;
@@ -99,12 +99,22 @@ public class PersonCollectionResource {
 	public Person newPerson2(Person person) throws IOException {
 		Person p = new Person();
 		List<Person> people = Person.getAll();
-		int count = people.size();
+		if(people.equals(null)){
+			p.setFirstname("Ivan");
+			p.setLastname("Benh");
+			p.setBirthdate("12-12-1988");
+			p.setIdPerson(1);
+			Person.savePerson(p);
+			count=1;
+		}
+		else{
+		count = people.size();
         p.setFirstname(person.getFirstname());
 		p.setLastname(person.getLastname());
 		p.setBirthdate(person.getBirthdate());
     	p.setIdPerson(count +1);
     	 Person.savePerson(p);
+		}
 		return p;
 	}
 	
