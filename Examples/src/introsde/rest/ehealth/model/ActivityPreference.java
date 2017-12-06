@@ -32,7 +32,7 @@ import javax.xml.bind.annotation.XmlAccessType;
 	})
 @XmlRootElement(name="activitypreference")
 public class ActivityPreference implements Serializable {
-   private static final long serialVersionUID = 1L;
+       private static final long serialVersionUID = 1L;
 
 
 	@Id
@@ -45,7 +45,7 @@ public class ActivityPreference implements Serializable {
 
         
     
-    @Column(name="\"name\"")
+       @Column(name="\"name\"")
 	private String name;
    
 
@@ -152,17 +152,17 @@ public class ActivityPreference implements Serializable {
 	
 
 	public static ActivityPreference getActivityById_ActivityType_ActivityId(int id,String activity_type,int activity_id) {
-		EntityManager em = LifeCoachDao.instance.createEntityManager();
+	    EntityManager em = LifeCoachDao.instance.createEntityManager();
 		//ActivityPreference p = em.find("ActivityPreference.findByPersonIdAndActivity", id)
-		 Person p =Person.getPersonById(id);
-		 Activity a =Activity.getActivityByActivtyType(activity_type);
-		 ActivityPreference sr = em.createNamedQuery("ActivityPreference.findByPersonIdAndActivity",
+	    Person p =Person.getPersonById(id);
+	    Activity a =Activity.getActivityByActivtyType(activity_type);
+	    ActivityPreference sr = em.createNamedQuery("ActivityPreference.findByPersonIdAndActivity",
 	        		ActivityPreference.class)
 	        	.setParameter("person", p)
 	        	.setParameter("activity", a)
 	        	.setParameter("idActivityPreference",activity_id).getSingleResult();
-		LifeCoachDao.instance.closeConnections(em);
-		return sr;
+	     LifeCoachDao.instance.closeConnections(em);
+	     return sr;
 	}
 	
 	/**
@@ -170,7 +170,7 @@ public class ActivityPreference implements Serializable {
 	 * @return
 	 */
 	public static List<ActivityPreference> getAll() {
-		EntityManager em = LifeCoachDao.instance.createEntityManager();
+	    EntityManager em = LifeCoachDao.instance.createEntityManager();
 	    List<ActivityPreference> list = em.createNamedQuery("ActivityPreference.findAll", ActivityPreference.class).getResultList();
 	    LifeCoachDao.instance.closeConnections(em);
 	    return list;

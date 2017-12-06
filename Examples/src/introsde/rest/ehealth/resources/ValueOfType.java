@@ -80,7 +80,7 @@ public class ValueOfType {
 	// allows to insert a new history
 	 
 	@POST
-    @Produces({ MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON, MediaType.TEXT_XML })
+        @Produces({ MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON, MediaType.TEXT_XML })
 	@Consumes({ MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON, MediaType.TEXT_XML })
 	public ActivityPreference saveHistory(ActivityPreference h ) {
 		List<ActivityPreference> ac = ActivityPreference.getAll();

@@ -122,10 +122,10 @@ public class ValueOfTypeAndMid {
 
 		int n= HealthMeasureHistory.getAll().size();
 		
-	     h.setIdMeasureHistory(n+1);
-	     HealthMeasureHistory hm = HealthMeasureHistory.saveHistoryByPersonAndTypeAndactivity_id(h, this.activity_type, this.activity_id, this.id);
+	        h.setIdMeasureHistory(n+1);
+	        HealthMeasureHistory hm = HealthMeasureHistory.saveHistoryByPersonAndTypeAndactivity_id(h, this.activity_type, this.activity_id, this.id);
 	        
-	     return hm;
+	        return hm;
     }
 	
 	

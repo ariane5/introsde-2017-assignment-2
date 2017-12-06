@@ -20,11 +20,11 @@ import java.util.List;
 @NamedQuery(name="Person.findAll", query="SELECT p FROM Person p")
 @XmlRootElement
 public class Person implements Serializable {
-  private static final long serialVersionUID = 1L;
+       private static final long serialVersionUID = 1L;
 
 
 
-    @Id
+        @Id
 	@GeneratedValue(generator="sqlite_person")
 	@TableGenerator(name="sqlite_person", table="sqlite_sequence",
 	    pkColumnName="name", valueColumnName="seq",
@@ -86,7 +86,7 @@ public class Person implements Serializable {
 	}
 
         
-     @XmlElementWrapper(name = "preferences")
+        @XmlElementWrapper(name = "preferences")
 	@XmlElement(name = "activity")
 	public List<ActivityPreference> getActivitypreferences() {
 		return activitypreferences;
@@ -110,11 +110,11 @@ public class Person implements Serializable {
 	// Database operations
 		// Notice that, for this example, we create and destroy and entityManager on each operation. 
 		// How would you change the DAO to not having to create the entity manager every time? 
-		public static Person getPersonById(int personId) {
-			EntityManager em = LifeCoachDao.instance.createEntityManager();
-			Person p = em.find(Person.class, personId);
-			LifeCoachDao.instance.closeConnections(em);
-			return p;
+        public static Person getPersonById(int personId) {
+	        EntityManager em = LifeCoachDao.instance.createEntityManager();
+		Person p = em.find(Person.class, personId);
+		LifeCoachDao.instance.closeConnections(em);
+	        return p;
 		}
 	
 	/**
@@ -125,11 +125,11 @@ public class Person implements Serializable {
 		System.out.println("--> Initializing Entity manager...");
 		EntityManager em = LifeCoachDao.instance.createEntityManager();
 		System.out.println("--> Querying the database for all the people...");
-	    List<Person> list = em.createNamedQuery("Person.findAll", Person.class).getResultList();
+	        List<Person> list = em.createNamedQuery("Person.findAll", Person.class).getResultList();
 		System.out.println("--> Closing connections of entity manager...");
-	    LifeCoachDao.instance.closeConnections(em);
+	        LifeCoachDao.instance.closeConnections(em);
 	
-	    return list;
+	        return list;
 	}
 	
 	/**
@@ -143,8 +143,8 @@ public class Person implements Serializable {
 		tx.begin();
 		em.persist(p);
 		tx.commit();
-	    LifeCoachDao.instance.closeConnections(em);
-	    return p;
+	        LifeCoachDao.instance.closeConnections(em);
+	        return p;
 	}
 	
 	/**
@@ -156,10 +156,10 @@ public class Person implements Serializable {
 		EntityManager em = LifeCoachDao.instance.createEntityManager();
 		EntityTransaction tx = em.getTransaction();
 		tx.begin();
-	Person	pq=em.merge(p);
+	        Person	pq=em.merge(p);
 		tx.commit();
-	    LifeCoachDao.instance.closeConnections(em);
-	    return pq;
+	        LifeCoachDao.instance.closeConnections(em);
+	        return pq;
 	}
 	
 	/**
@@ -170,10 +170,10 @@ public class Person implements Serializable {
 		EntityManager em = LifeCoachDao.instance.createEntityManager();
 		EntityTransaction tx = em.getTransaction();
 		tx.begin();
-	    p=em.merge(p);
-	    em.remove(p);
-	    tx.commit();
-	    LifeCoachDao.instance.closeConnections(em);
+	        p=em.merge(p);
+	        em.remove(p);
+	        tx.commit();
+	        LifeCoachDao.instance.closeConnections(em);
 	}
 
 }

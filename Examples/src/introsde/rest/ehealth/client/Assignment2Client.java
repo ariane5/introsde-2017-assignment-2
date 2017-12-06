@@ -58,7 +58,6 @@ public class Assignment2Client {
 	private static	String url;
 	private static  ArrayList<String> nodes ;
 	private static String[] lst;
-	private static  DataBaseInit db;
 	private static String activity_id;
 	private static String activity;
 	private static PrintWriter xmlLogWriter;
@@ -69,7 +68,8 @@ public class Assignment2Client {
     	
     	
        
-       uripoint="https://assign21.herokuapp.com/sdelab";
+       //uripoint="https://assign21.herokuapp.com/sdelab";
+       uripoint="http://127.0.1.1:5700/sdelab/";
        clientConfig = new ClientConfig();
 	   client = ClientBuilder.newClient(clientConfig);
 	   service = client.target(getBaseURI());// target the ressource 
@@ -83,7 +83,13 @@ public class Assignment2Client {
 	   
 	   //step 0
 	   
-	   db = new DataBaseInit();
+	   /*res= GetRequestOperation("DATABASE_INIT",MediaType.APPLICATION_XML);
+	   responseBody= loadResponseBody(res);
+		  
+	   httpStatus =loadResponseStatus(res);
+	   System.out.println(httpStatus);*/
+	   
+	   /*db = new DataBaseInit();
 	   db.CreatePerson("mario", "marco", "17-02-1978");
 	   db.CreatePerson("john", "john", "11-12-1988");
 	   db.CreatePerson("marc","marc", "18-09-1958");
@@ -94,7 +100,29 @@ public class Assignment2Client {
 	   db.CreateActivityPreference("social", "discussion", "sanbartolameo", "2017-09-13T20:00:00.0", 4);
 	   db.CreateActivityPreference("school", "economics", "povo", "2017-09-13T9:00:00.0", 5);
 	   db.CreateHistory("swimming", "Trento city", "2017-09-13T12:00:00.0", "sport", 1);
-	   db.CreateHistory("history", "Trento povo", "2017-09-17T09:00:00.0", "school", 2);
+	   db.CreateHistory("history", "Trento povo", "2017-09-17T09:00:00.0", "school", 2);*/
+	   res = PostRequestOperation("/activity/sport",MediaType.APPLICATION_XML,"",MediaType.APPLICATION_XML);
+	   res = PostRequestOperation("/activity/social",MediaType.APPLICATION_XML,"",MediaType.APPLICATION_XML);
+	   res = PostRequestOperation("/activity/school",MediaType.APPLICATION_XML,"",MediaType.APPLICATION_XML);
+	   res = PostRequestOperation("person",MediaType.APPLICATION_XML,"<person><firstname>Matthieu</firstname><lastname>Marc</lastname>"
+	   		+ "<birthdate>1-11-1978</birthdate></person>",MediaType.APPLICATION_XML);
+	   res = PostRequestOperation("person",MediaType.APPLICATION_XML,"<person><firstname>paul</firstname><lastname>jonas</lastname>"
+		   		+ "<birthdate>1-11-1978</birthdate></person>",MediaType.APPLICATION_XML);
+	   res = PostRequestOperation("person",MediaType.APPLICATION_XML,"<person><firstname>ivan</firstname><lastname>Festo</lastname>"
+		   		+ "<birthdate>1-11-1978</birthdate></person>",MediaType.APPLICATION_XML);
+	   res = PostRequestOperation("person",MediaType.APPLICATION_XML,"<person><firstname>Antonio</firstname><lastname>Christian</lastname>"
+		   		+ "<birthdate>1-11-1978</birthdate></person>",MediaType.APPLICATION_XML);
+	  // int count =Person.getAll().size();
+	   res = PostRequestOperation("/person/"+1+"/sport",MediaType.APPLICATION_XML,"<activitypreference><name>sport</name> <description>soccer</description>"+
+	           "<place>sanbartolameo</place><startdate>1-11-1978</startdate></activitypreference>",MediaType.APPLICATION_XML);
+	   res = PostRequestOperation("/person/"+2+"/sport",MediaType.APPLICATION_XML,"<activitypreference><name>sport</name> <description>playing football</description>"+
+	           "<place>trento</place><startdate>1-11-1978</startdate></activitypreference>",MediaType.APPLICATION_XML);
+	   res=PostRequestOperation("person/"+1+"/sport/1",MediaType.APPLICATION_XML,"<healthMeasureHistory><description>dancing salsa</description><place>milano</place>"+
+		        "<startdate>2017-10-13T13:27:00.0</startdate></healthMeasureHistory>",MediaType.APPLICATION_XML);
+	   res=PostRequestOperation("person/"+1+"/sport/2",MediaType.APPLICATION_XML,"<healthMeasureHistory><description>playing volley ball</description><place>piazza dante</place>"+
+		        "<startdate>2017-10-13T13:27:00.0</startdate></healthMeasureHistory>",MediaType.APPLICATION_XML);
+	   
+	   
 	   
 	   System.out.println("------------------------------------------------------");
 	   
@@ -215,7 +243,7 @@ public class Assignment2Client {
 	  else
 			     resultStatus="error";
 			url="/person"; 
-	 printDetailOperation(3,"POST",url, "application/xml", "application/xml");
+	 printDetailOperation(4,"POST",url, "application/xml", "application/xml");
 	 
 	 
 	 
@@ -234,15 +262,19 @@ public class Assignment2Client {
 	 else
 			     resultStatus="error";
 			url="/person"; 
-	 printDetailOperation(3,"POST",url,  "application/json",  "application/json");
+	 printDetailOperation(4,"POST",url,  "application/json",  "application/json");
 	 
 	 System.out.println("------------------------------------------------------");
 	   
      
 	   //STEP 3.5- check the presence of the new created person
 	   
-	 int  cn= Person.getAll().size();
-	 int cn1=cn-1;
+	// int  cn= Person.getAll().size();
+	 res= GetRequestOperation("person",MediaType.APPLICATION_XML);
+	 responseBody= loadResponseBody(res);
+	 test = new ClientParser(responseBody);
+	int cn= test.getPeopleNumber("person");
+	 //int cn1=cn-1;
 	 System.out.println("Send Request#5 for the person you have just created. "
 		   		+ "Then send Request#1 with the id of that person. If the answer is 404, your result must be OK" );
 		   
@@ -291,7 +323,8 @@ public class Assignment2Client {
 	 responseBody= loadResponseBody(res);
 	 httpStatus =loadResponseStatus(res);
 	 test = new ClientParser(responseBody);
-	 int an = Activity.getAll().size();
+	 
+	 int an = test.getPeopleNumber("activity_types");
 	 if(an >2)
 			     resultStatus="ok"; 
 	 else
@@ -358,7 +391,7 @@ public class Assignment2Client {
 				     resultStatus="ok"; 
 		  else
 				     resultStatus="error";
-				url="/person/first_person_id"; 
+				url="/person/last_person_id"; 
 		  printDetailOperation(7,"GET",url, "application/xml", "application/xml");
 		  printDetailOperation(7,"GET",url, "application/json", "application/json");
 			   }
@@ -436,7 +469,11 @@ public class Assignment2Client {
 		   
 		   
 	 //STEP 3.10-update a person with a given activity an activity_id
-     int hn = HealthMeasureHistory.getAll().size();
+    /* int hn = HealthMeasureHistory.getAll().size();
+     res= GetRequestOperation("person",MediaType.APPLICATION_XML);
+	 responseBody= loadResponseBody(res);
+	 test = new ClientParser(responseBody);
+	int cn= test.getPeopleNumber("person");*/
 	 res=PutRequestOperation("person/"+first_person_id+"/sport/1",MediaType.APPLICATION_XML,"<healthMeasureHistory>"+
 	        "<description>walking</description>"+
 	        "<place>centro citta</place>"+
@@ -444,8 +481,9 @@ public class Assignment2Client {
 	       "</healthMeasureHistory>",MediaType.APPLICATION_XML);
 				   responseBody= loadResponseBody(res);
 				   
-     int hn1 = HealthMeasureHistory.getAll().size();
-	 if(hn1==hn)
+   //  int hn1 = HealthMeasureHistory.getAll().size();
+	  httpStatus =loadResponseStatus(res);
+	 if(httpStatus==200||httpStatus==202)
 					     resultStatus="ok"; 
      else
 					     resultStatus="error";
@@ -478,15 +516,14 @@ public class Assignment2Client {
    System.out.println(" PUT /person/{id}/{activity_type}/{activity_id} should update the value for the {activity_type} (e.g., Social) "
 		   		+ "identified by {activity_id}, related to the person identified by {id}");
 		  
-   int hnj = HealthMeasureHistory.getAll().size();
+
    res=PutRequestOperation("person/"+first_person_id+"/sport/1",MediaType.APPLICATION_JSON,"{"
 		   +    "\"description\": \"walking\","+
 				     "\"place\": \"citta\","+
 				     "\"startdate\": \"1-11-1978\"}",MediaType.APPLICATION_JSON);
   responseBody= loadResponseBody(res);
-				   
-  int hnj1 = HealthMeasureHistory.getAll().size();
-  if(hnj1==hnj)
+  httpStatus =loadResponseStatus(res);
+  if(httpStatus==200||httpStatus==202)
 					     resultStatus="ok"; 
   else
 					     resultStatus="error";
