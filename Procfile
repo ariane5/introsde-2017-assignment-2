@@ -1,1 +1,1 @@
-web: ant start
+web: ant app
