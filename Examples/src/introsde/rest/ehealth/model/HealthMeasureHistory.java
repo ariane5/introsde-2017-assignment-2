@@ -32,7 +32,7 @@ import java.util.List;
 				+ "WHERE h.person = :person AND h.activity = :activity AND h.idMeasureHistory = :activity_id"),
 	@NamedQuery(name="HealthMeasureHistory.findAll", query="SELECT h FROM HealthMeasureHistory h")	
 })
-@XmlRootElement
+@XmlRootElement//(name="activity_type")
 public class HealthMeasureHistory implements Serializable {
 	private static final long serialVersionUID = 1L;
 
@@ -188,6 +188,7 @@ public class HealthMeasureHistory implements Serializable {
 		 * get healthmeasurehistory database
 		 * @return
 		 */
+	//@XmlElementWrapper(name = "activity_types")
 	public static List<HealthMeasureHistory> getAll() {
 		    EntityManager em = LifeCoachDao.instance.createEntityManager();
 		    List<HealthMeasureHistory> list = em.createNamedQuery("HealthMeasureHistory.findAll", HealthMeasureHistory.class).getResultList();

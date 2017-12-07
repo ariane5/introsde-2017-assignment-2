@@ -38,7 +38,7 @@ public class App
     JdkHttpServerFactory.createHttpServer(BASE_URI, createApp());
     
     System.out.println("Server started on " + BASE_URI + "\n[kill the process to exit]");
-   // DataBaseInit.fillDataBase();
+    //DataBaseInit.fillDataBase();
     //Person person = Person.getPersonById(1);
   //  Activity  md = Activity.getActivityByActivtyType("sport") ;
     //HealthMeasureHistory.getHistoryByPersonAndMeasureType(person, md)

@@ -92,6 +92,21 @@
        
     	<target name="app" depends="compile">
           	            <echo message="app start introsde.rest.ehealth.App in ${build.dir}" />
+          	            <java classname="introsde.rest.ehealth.DataBaseInit" classpath="${build.dir}" fork="true">
+          	                <arg value="$JAVA_OPTS  -cp" />
+          	                <classpath>
+          	                    <path location="build" />
+          	                    <fileset dir="WebContent/WEB-INF/lib">
+          	                        <include name="**/*.jar" />
+          	                        <include name="*.jar" />
+          	                    </fileset>
+          	                </classpath>
+          	            </java>
+          	  </target>
+
+    
+      	<target name="start" depends="app">
+          	            <echo message="app start introsde.rest.ehealth.App in ${build.dir}" />
           	            <java classname="introsde.rest.ehealth.App" classpath="${build.dir}" fork="true">
           	                <arg value="$JAVA_OPTS  -cp" />
           	                <classpath>
@@ -104,20 +119,6 @@
           	            </java>
           	  </target>
 
-      <target name="start" depends="app">
-            <echo message="app start introsde.rest.ehealth.resources.DataBaseInit in ${build.dir}" />
-            <java classname="introsde.rest.ehealth.App" classpath="${build.dir}" fork="true">
-                <arg value="$JAVA_OPTS  -cp" />
-                <classpath>
-                    <path location="build" />
-                    <fileset dir="WebContent/WEB-INF/lib">
-                        <include name="**/*.jar" />
-                        <include name="*.jar" />
-                    </fileset>
-                </classpath>
-            </java>
-      	</target>
-      	
       	
         <!--<target name="execute.client">
             <echo message="client start introsde.rest.ehealth.client.Assignment2Client in ${build.dir}" />

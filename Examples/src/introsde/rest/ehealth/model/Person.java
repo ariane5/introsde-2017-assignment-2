@@ -86,7 +86,7 @@ public class Person implements Serializable {
 	}
 
         
-        @XmlElementWrapper(name = "preferences")
+    @XmlElementWrapper(name = "preferences")
 	@XmlElement(name = "activity")
 	public List<ActivityPreference> getActivitypreferences() {
 		return activitypreferences;
