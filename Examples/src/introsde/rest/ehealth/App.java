@@ -43,25 +43,43 @@ public class App
   //  Activity  md = Activity.getActivityByActivtyType("sport") ;
     //HealthMeasureHistory.getHistoryByPersonAndMeasureType(person, md)
    //System.out.println( Activity.getActivityByActivtyType("sport"));
-   //System.out.println(App.History(1, "sport"));
+   // App ap=new App();
+  //System.out.println(ap.putActivity());
    //System.out.println(HealthMeasureHistory.getHistoryByPersonAndMeasureType(person, md));
 }
 
-/*public static List<HealthMeasureHistory> History(int id,String activity_type) {
+/*public Activity_Type putActivity() {
 
-    Person person = Person.getPersonById(id);
-    System.out.println("success 3");
-    Activity  md = Activity.getActivityByActivtyType(activity_type) ;
-    System.out.println("success 1");
-    if (person == null||md == null) {
-        	System.out.println("[Error] Get: Person with id " + id + " not found");
-            throw new RuntimeException("Get: Person with " + id + " and measure Name "+activity_type+"not found");
-        }
-    System.out.println("success 2");
-    System.out.println("Returning person with id :="+"" + person.getIdPerson()+""+ "and measuretype  := "+"" + md.getName() +""+""+md.getIdActivity() );
-    return HealthMeasureHistory.getHistoryByPersonAndMeasureType(person, md);
+		int n= Activity_Type.getAll().size();
+		Activity_Type h = new Activity_Type();
+	    Activity a =	Activity.getActivityByActivtyType("sport");
+	    
+
+	    Person p= Person.getPersonById(1);
+		Activity_Type h1=Activity_Type.getHistoryByPersonAndTypeAndactivity_id(p, a, 1);
+	   
+
+		if (h1== null) {
+	
+		  System.out.println("can not find the history");
+		  return null;
+			
+		} else {
+
+		    h.setActivity(h1.getActivity());
+		    h.setDescription("walking");
+		    h.setIdMeasureHistory(h1.getIdMeasureHistory());
+		    h.setPerson(h1.getPerson());
+		    h.setPlace("Gardolo");
+		    h.setStartdate("12-12-2018");
+		                           
+			h.setIdMeasureHistory(n);
+		    Activity_Type pq =Activity_Type.updateActivity_Type(h);
+			return pq;
+		}
+    }*/
     
- }*/
+ 
 
 public static ResourceConfig createApp() {
     System.out.println("Starting sdelab REST services...");
